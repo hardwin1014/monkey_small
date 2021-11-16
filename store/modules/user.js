@@ -1,8 +1,8 @@
 const key = 'USERS_KEY'
-const userinfo = uni.getStorageSync(key);
+const token = uni.getStorageSync(key);
 
 const state = {
-  user: userinfo ? JSON.parse(userinfo) : null
+  token: token ? JSON.parse(token) : null
 }
 
 const mutations = {

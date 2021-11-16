@@ -6,4 +6,5 @@ unpackage/
 wxcomponents/**/*.vue
 wxcomponents/**/*.css
 .hbuilderx/
+.idea/
 /unpackage/dist
